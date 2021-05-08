@@ -5,7 +5,7 @@
 </script>
 
 <div class="border border-gray-300 bg-white rounded-sm p-3 sm:px-16 sm:py-6">
-    <div>
+    <div class="block sm:hidden">
         <div class="flex items-start">
             <img class="testimonial-image" src={image} alt="" />
             <div class="ml-4">
