@@ -1,10 +1,9 @@
 <script>
     import Review from '../components/Review.svelte';
+    import Heading from "../components/Heading.svelte";
 </script>
 
-<h2 class="sm:mx-40 text-2xl text-center text-gray-900 font-light">
-    Read What our Satisfied clients have to say
-</h2>
+<Heading elementId={"testimonials"}>Read What our Satisfied clients have to say</Heading>
 <div class="mt-12 space-y-4">
     <Review name={'Diego Rivera'} image={'images/f4.jpeg'}>
         Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis

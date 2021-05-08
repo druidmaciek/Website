@@ -21,7 +21,7 @@
 					<a class="mr-2 sm:mr-6 font-semibold border-b border-transparent hover:border-white " href="#services"
 						>Services</a
 					>
-					<a class="sm:mr-6 font-semibold border-b border-transparent hover:border-white " href=""
+					<a class="sm:mr-6 font-semibold border-b border-transparent hover:border-white " href="#about"
 						>About</a
 					>
 					<a href="#contact"
@@ -36,11 +36,11 @@
 						MicroAccounting helps businesses like yours to achieve long-term success.
 					</h1>
 					<p class="text-sm sm:text-base sm:mt-2">
-						Future-focussed business strategy and financial management by <b>MicroAccounting</b>
+						Accountants Providing Expert Accounting, Tax And Business Advisory
 					</p>
 					<div class="mt-2 sm:mt-6 flex items-center justify-center">
 						<a  href="#contact"
-							class="mx-1.5 sm:mx-4 py-2 px-4 border-2 rounded border-white font-semibold hover:bg-white hover:text-gray-900"
+							class="mx-1.5 sm:mx-4 py-1 px-2 sm:py-2 sm:px-4 border-2 rounded border-white font-semibold hover:bg-white hover:text-gray-900"
 							>Contact Us</a
 						>
 						<a

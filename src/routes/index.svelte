@@ -18,7 +18,7 @@
 	<Services />
 </Layout>
 
-<div id="testimonials" class="bg-gray-100 py-12">
+<div class="bg-gray-100 py-12">
 	<Layout>
 		<Testimonials />
 	</Layout>
@@ -28,7 +28,7 @@
 	<Contact />
 </Layout>
 
-<div id="about" class="bg-gray-100 py-12">
+<div class="bg-gray-100 py-12">
 	<Layout>
 		<About/>
 	</Layout>

@@ -1,7 +1,9 @@
+<script>
+	import Heading from "../components/Heading.svelte";
+</script>
 <div class="py-12 sm:px-12">
-	<h2 id="contact" class="sm:mx-40 text-2xl text-center text-gray-900 font-light">
-		Start Working with us today, and send us a message below for a quote
-	</h2>
+	<Heading elementId={"contact"}>Start working with us today, and send us a message below for a quote</Heading>
+
 	<div class="mt-12 grid sm:grid-cols-2 gap-10">
 		<div class="order-3">
 			<img
