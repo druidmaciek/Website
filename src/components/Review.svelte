@@ -1,41 +1,45 @@
 <script>
 	export let name = 'Joe Smith';
+	export let city = "Auckland";
 	export let image = 'https://thispersondoesnotexist.com/image';
 	export let left = true;
 </script>
 
-<div class="border border-gray-300 bg-white rounded-sm p-3 sm:px-16 sm:py-6">
+<div class="p-2 sm:px-12 sm:py-6">
     <div class="block sm:hidden">
-        <div class="flex items-start">
+        <div class="flex items-center">
             <img class="testimonial-image" src={image} alt="" />
             <div class="ml-4">
-                <h4 class="text-lg font-bold">{name}</h4>
-                <p class="mt-1">
-                    <slot />
+				<p >
+                    “<slot />”
                 </p>
+                <h4 class="mt-1 text-lg font-bold">{name}, {city}</h4>
+                
             </div>
         </div>
     </div>
 	<div class="hidden sm:block">
 		{#if left}
-			<div class="sm:flex">
+			<div class="sm:flex sm:items-center">
 				<div class="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
 					<img class="testimonial-image" src={image} alt="" />
 				</div>
 				<div>
-					<h4 class="text-lg font-bold">{name}</h4>
-					<p class="mt-1">
-						<slot />
+					<p >
+						“<slot />”
 					</p>
+					<h4 class="mt-1 text-lg font-bold">{name}, {city}</h4>
+					
 				</div>
 			</div>
 		{:else}
-			<div class="sm:flex">
+			<div class="sm:flex sm:items-center">
 				<div class="text-right">
-					<h4 class="text-lg font-bold">{name}</h4>
-					<p class="mt-1">
-						<slot />
+					<p>
+						“<slot />”
 					</p>
+					<h4 class="mt-1 text-lg font-bold">{name}, {city}</h4>
+				
 				</div>
 				<div class="mb-4 flex-shrink-0 sm:mb-0 sm:ml-4">
 					<img class="testimonial-image" src={image} alt="" />

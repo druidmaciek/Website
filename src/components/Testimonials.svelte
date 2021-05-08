@@ -3,24 +3,20 @@
     import Heading from "../components/Heading.svelte";
 </script>
 
-<Heading elementId={"testimonials"}>Read What our Satisfied clients have to say</Heading>
-<div class="mt-12 space-y-4">
-    <Review name={'Diego Rivera'} image={'images/f4.jpeg'}>
-        Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis
-        voluptatem. Minus quidem ipsam quia iusto.
+<Heading elementId={"testimonials"}>Just Ask Our Happy Customers</Heading>
+<div class="mt-12 space-y-4 divide-y-2">
+    <Review name={'Leo Selby'} image={'images/f4.jpeg'}>
+        A great team with an amazing service. They make you feel like your part of the team. They have helped grow our business in many. Truly blessed to have meet them.
     </Review>
     <Review name={'Edna Silva'} image={'images/f2.jpeg'} left={false}>
-        Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis
-        voluptatem. Minus quidem ipsam quia iusto.
+        MicroAccounting go beyond financial development, and connects you to the essence of your business. It has been a pleasurable experience and we look forward to building on this relationship.
     </Review>
     
-    <Review name={'Adam Wathan'} image={'images/f3.jpeg'}>
-        Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis
-        voluptatem. Minus quidem ipsam quia iusto.
+    <Review name={'Adam Corey'} city={'Christchurch'} image={'images/f3.jpeg'}>
+        Fantastic to work with. No stress, great communication. Highly recommended for property and personal tax returns.
     </Review>
-    <Review name={'Adam Wathan'} image={'images/f1.jpeg'} left={false}>
-        Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis
-        voluptatem. Minus quidem ipsam quia iusto.
+    <Review name={'Owen Creswell'} city={'Whangarei'} image={'images/f1.jpeg'} left={false}>
+        Our experience working with MicroAccounting over 10+ years has been excellent. Professional in delivery, Timely in advice. A pleasure to have them as our Accountants and Business Advisers.
     </Review>
     
 </div>

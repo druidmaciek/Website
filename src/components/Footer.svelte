@@ -4,7 +4,7 @@
 			<p class="mr-1 text-5xl font-extrabold font-serif">M</p>
 			<div>
 				<p class="font-serif text-xl">icroAccounting</p>
-				<p class="-mt-1.5 texts-xs italic font-extralight">Lorem ispuw with a fucking sipsum</p>
+				<p class="-mt-1.5 texts-xs italic font-extralight">Best partner for your success</p>
 			</div>
 		</div>
 		<div class="mt-4 sm:mt-0">
@@ -13,8 +13,8 @@
 					<div>
 						<dt class="sr-only">Postal address</dt>
 						<dd>
-							<p>742 Evergreen Terrace</p>
-							<p>Springfield, OR 12345</p>
+							<p>136 Victoria Street Weste</p>
+							<p>Auckland, CBD 1010</p>
 						</dd>
 					</div>
 					<div class="mt-2 ">
@@ -37,7 +37,7 @@
 										d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
 									/>
 								</svg>
-								<span class="ml-3"> +1 (555) 123-4567 </span>
+								<span class="ml-3">+64 245-5587-5</span>
 							</dd>
 						</div>
 						<div class="">
@@ -59,7 +59,7 @@
 										d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 									/>
 								</svg>
-								<span class="ml-3"> support@example.com </span>
+								<span class="ml-3"> help@microaccounting.nz </span>
 							</dd>
 						</div>
 					</div>
@@ -68,10 +68,10 @@
 		</div>
 		<div class="mt-4 sm:mt-0">
 			<div class="grid grid-cols-1">
-				<a class="mr-6 font-semibold border-b border-transparent hover:border-white " href="#services"
+				<a class="mr-6 border-b border-transparent hover:border-white " href="#services"
 					>Services</a
 				>
-				<a class="mr-6 font-semibold border-b border-transparent hover:border-white " href=""
+				<a class="mr-6 border-b border-transparent hover:border-white " href="#about"
 					>About</a
 				>
 			

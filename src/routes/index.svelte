@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>MicroAccounting.co.uk</title>
+	<title>MicroAccounting.nz</title>
 </svelte:head>
 
 <Header />
