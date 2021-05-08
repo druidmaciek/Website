@@ -5,6 +5,7 @@
 	import Footer from '../components/Footer.svelte';
 	import Contact from '../components/Contact.svelte';
 	import Services from '../components/Services.svelte';
+	import About from "../components/About.svelte";
 </script>
 
 <svelte:head>
@@ -27,4 +28,9 @@
 	<Contact />
 </Layout>
 
+<div id="about" class="bg-gray-100 py-12">
+	<Layout>
+		<About/>
+	</Layout>
+</div>
 <Footer />
