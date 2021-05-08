@@ -2455,9 +2455,9 @@ function init(settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-643b94f1.js",
+      file: "/./_app/start-50b8ced8.js",
       css: ["/./_app/assets/start-0826e215.css"],
-      js: ["/./_app/start-643b94f1.js", "/./_app/chunks/vendor-96fe485c.js"]
+      js: ["/./_app/start-50b8ced8.js", "/./_app/chunks/vendor-96fe485c.js"]
     },
     fetched: void 0,
     floc: false,
@@ -2484,14 +2484,14 @@ function init(settings) {
 var empty = () => ({});
 var manifest = {
   assets: [{file: "images/f1.jpeg", size: 464170, type: "image/jpeg"}, {file: "images/f2.jpeg", size: 460864, type: "image/jpeg"}, {file: "images/f3.jpeg", size: 479896, type: "image/jpeg"}, {file: "images/f4.jpeg", size: 452887, type: "image/jpeg"}],
-  layout: "src/routes/$layout.svelte",
+  layout: ".svelte-kit/build/components/layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
     {
       type: "page",
       pattern: /^\/$/,
       params: empty,
-      a: ["src/routes/$layout.svelte", "src/routes/index.svelte"],
+      a: [".svelte-kit/build/components/layout.svelte", "src/routes/index.svelte"],
       b: [".svelte-kit/build/components/error.svelte"]
     }
   ]
@@ -2501,8 +2501,8 @@ var get_hooks = (hooks) => ({
   handle: hooks.handle || (({request, render: render2}) => render2(request))
 });
 var module_lookup = {
-  "src/routes/$layout.svelte": () => Promise.resolve().then(function() {
-    return $layout$1;
+  ".svelte-kit/build/components/layout.svelte": () => Promise.resolve().then(function() {
+    return layout;
   }),
   ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(function() {
     return error;
@@ -2511,7 +2511,7 @@ var module_lookup = {
     return index;
   })
 };
-var metadata_lookup = {"src/routes/$layout.svelte": {entry: "/./_app/pages/$layout.svelte-9a61d5a4.js", css: ["/./_app/assets/pages/$layout.svelte-255a510a.css"], js: ["/./_app/pages/$layout.svelte-9a61d5a4.js", "/./_app/chunks/vendor-96fe485c.js"], styles: null}, ".svelte-kit/build/components/error.svelte": {entry: "/./_app/error.svelte-21b68379.js", css: [], js: ["/./_app/error.svelte-21b68379.js", "/./_app/chunks/vendor-96fe485c.js"], styles: null}, "src/routes/index.svelte": {entry: "/./_app/pages/index.svelte-e880240e.js", css: ["/./_app/assets/pages/index.svelte-32497fe8.css"], js: ["/./_app/pages/index.svelte-e880240e.js", "/./_app/chunks/vendor-96fe485c.js"], styles: null}};
+var metadata_lookup = {".svelte-kit/build/components/layout.svelte": {entry: "/./_app/layout.svelte-8f51c603.js", css: [], js: ["/./_app/layout.svelte-8f51c603.js", "/./_app/chunks/vendor-96fe485c.js"], styles: null}, ".svelte-kit/build/components/error.svelte": {entry: "/./_app/error.svelte-21b68379.js", css: [], js: ["/./_app/error.svelte-21b68379.js", "/./_app/chunks/vendor-96fe485c.js"], styles: null}, "src/routes/index.svelte": {entry: "/./_app/pages/index.svelte-e880240e.js", css: ["/./_app/assets/pages/index.svelte-32497fe8.css"], js: ["/./_app/pages/index.svelte-e880240e.js", "/./_app/chunks/vendor-96fe485c.js"], styles: null}};
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -2525,13 +2525,13 @@ function render(request, {
   const host = request.headers["host"];
   return respond({...request, host}, options, {prerender});
 }
-var $layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+var Layout$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${slots.default ? slots.default({}) : ``}`;
 });
-var $layout$1 = /* @__PURE__ */ Object.freeze({
+var layout = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  default: $layout
+  default: Layout$1
 });
 function load({error: error2, status}) {
   return {props: {error: error2, status}};
