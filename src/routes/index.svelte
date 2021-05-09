@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>MicroAccounting.nz</title>
+	<title>MicroAccounting</title>
 </svelte:head>
 
 <Header />
